@@ -1,0 +1,21 @@
+// newholamundo.cpp : Defines the entry point for the console application.
+//
+// holamundo . cpp: defines the entry point for the console application
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{
+int edad ;
+cout<<"ingresa tu edad:";
+cin>>edad;
+count<<"tu edad es:";
+count<<edad;
+getch()
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	return 0;
+}
