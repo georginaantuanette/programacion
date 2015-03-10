@@ -1,0 +1,60 @@
+Proceso rectangulo
+	Escribir ("digite el valor de la base")
+	Leer B;
+	Escribir ("digite el valor de la altura")
+	Leer H;
+	Area<-B*H
+	Escribir ("el area es"),Area
+	
+FinProceso
+Proceso cuadradro
+	Escribir ("digite el valor de la base")
+
+	Leer B;
+	Escribir ("digite el valor de la altura")
+	Leer H;
+	Area<-B*H
+	Escribir ("el area es"),Area
+	
+FinProceso
+
+
+
+
+
+
+Proceso triangulo
+	Escribir ("digite el valor de la base")
+
+	Leer B;
+	Escribir ("digite el valor de la altura")
+	Leer H;
+	Area<-B*H
+	Escribir ("el area es"),Area
+	
+FinProceso
+Proceso cono
+	Escribir ("digite el valor de la base")
+
+	Leer B;
+	Escribir ("digite el valor de la altura")
+	Leer H;
+	Area<-B*H
+	Escribir ("el area es"),Area
+	
+FinProceso
+
+
+
+
+
+Proceso circunferencia
+	Escribir ("digite el valor de la base")
+
+	Leer B;
+	Escribir ("digite el valor de la altura")
+	Leer H;
+	Area<-B*H
+	Escribir ("el area es"),Area
+	
+FinProceso
