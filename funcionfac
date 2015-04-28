@@ -1,0 +1,34 @@
+// funcionfac.cpp : Defines the entry point for the console application.
+
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+//prototipos
+float funcionfac(float base,int exponente);
+
+//cuerpo principal
+void main(
+{
+ float b,pot;
+ int n;
+ cout<<"ingrese la n:"; 
+ 
+
+
+ 
+ pot=funcionfac(n); //llamada de la funcion que retorna
+ cout<<"la n de: "<<n<<"por"<<n!<<"es:"<<pot;
+ getch();
+}
+//declaracion de variable
+float funcionfac(float n!,int n)
+{
+float x;
+ x=1;//inicializador de un acumulador de producto
+ for(int i=1;i<=n;i++)
+ x=n*(n-1)!;//acumulador de producto
+ return n;
