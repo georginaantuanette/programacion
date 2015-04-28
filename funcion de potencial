@@ -1,0 +1,32 @@
+// funcion potencial.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+//prototipos
+float funcionpotencial(float base,int exponente);
+
+//cuerpo principal
+void main(
+{
+	float b,pot;
+	int e;
+	cout<<"ingrese la base:";
+	cin>>b;
+	cout<<"ingrese el exponente:";
+	cin>>e;
+	pot=funcionpotencial(b,e); //llamada de la funciom que retorna
+	cout<<"la potencia de: "<<b<<"elebado a la"<<e<<"es:""<<pot;
+		getch();
+}
+//declaracion de variable
+float funcionpotencial(float base,int exponente)
+{
+  float x;
+  x=//inicializador de un acumulador de producto
+	  for(int i=1;i<=exponente;i++)
+		  x=x*base;//acumulador de producto
+  return x;
