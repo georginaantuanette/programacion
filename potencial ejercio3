@@ -1,0 +1,34 @@
+// ejercisio3.cpp : Defines the entry point for the console application.
+
+//
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+float potencia(float base,int exponente);
+int fac(int n)
+void main()
+{
+int b,e,s;
+count<<"ingrese la base:";
+cin>>e;
+s=0:
+for(int i=1;1<e;i++)
+s=s+(potencia(b,e)/fac(e));
+count<<"el resultado es:"<<s;
+getch();
+}
+float potencia(float base,int exponente)
+{
+ float x;
+ x=1;
+ for(int i=1,;i(=exponente)
+	 x=x*base;
+	 return x;
+
+}
+
+int fac(int n)
+}
