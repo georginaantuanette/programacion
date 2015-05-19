@@ -1,0 +1,45 @@
+// aplicacion.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostram>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main()
+{
+  int sdw,sd.j.mst,cff,piq;
+  do{
+  cout<<"/tCOFFE BREACK/t"<<endl;
+  cout<<"ingrese la opcio que dese:"<<endl;
+  cout<<"1.sandwichs"<<endl;
+  cout<<"2.sodas"<<endl;
+  cout<<"3.jugos"<<endl;
+  cout<<"4.masitas"<<endl;
+  cout<<"5.postres"<<endl;
+  cout<<"6.cafe"<<endl;
+  cout<<"7.piqueos"<<endl;
+  cout<<"0.salir"<<endl;
+  cout<<"elige una opcion"<<endl;
+  cin>>opcion;
+  switch(opcion){
+  case 1:
+  cout<<"/SANDWICHS"<<endl;
+  cout<<"1.pollo,milanesa,lomito"<<endl;
+  cout<<"2.10bs"<<endl;
+  cout<<"3.elegir sabor"<<endl;
+  cout<<"0.salir"<<endl;
+  cout<<"elige una opcion";
+  cin>>opcion;
+  switch(opcion){
+
+  case 2:
+  cout<<"/SODAS"<<endl;
+  cout<<"1.sprite,coca-cola,fanta"<<endl;
+  cout<<"2.2bs,5bs,10bs"<<endl;
+  cout<<"3.elegir sabor"<<endl;
+  cout<<"0.salir"<<endl;
+  cout<<"elige una opcion";
+  cin>>opcion;
+  switch(opcion){
